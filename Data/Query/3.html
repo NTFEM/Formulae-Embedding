@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title offset="350">Word lists by frequency</title>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG.js" type="text/javascript">
+</script>
+</head>
+<body>
+<h1>Word lists by frequency</h1>
+<hr/>
+
+<math display="block" id="Word_lists_by_frequency:1">
+    <semantics>
+     <mrow>
+      <mi>N</mi>
+      <mo>=</mo>
+      <mrow>
+       <mo>⌊</mo>
+       <mrow>
+        <mn>0.5</mn>
+        <mo>-</mo>
+        <mrow>
+         <msub>
+          <mi>log</mi>
+          <mn>2</mn>
+         </msub>
+         <mrow>
+          <mo>(</mo>
+          <mfrac>
+           <mtext>Frequency of this item</mtext>
+           <mtext>Frequency of most common item</mtext>
+          </mfrac>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+       </mrow>
+       <mo>⌋</mo>
+      </mrow>
+     </mrow>
+     <annotation-xml encoding="MathML-Content">
+      <apply>
+       <eq></eq>
+       <ci>N</ci>
+       <apply>
+        <floor></floor>
+        <apply>
+         <minus></minus>
+         <cn type="float">0.5</cn>
+         <apply>
+          <apply>
+           <csymbol cd="ambiguous">subscript</csymbol>
+           <log></log>
+           <cn type="integer">2</cn>
+          </apply>
+          <apply>
+           <divide></divide>
+           <mtext>Frequency of this item</mtext>
+           <mtext>Frequency of most common item</mtext>
+          </apply>
+         </apply>
+        </apply>
+       </apply>
+      </apply>
+     </annotation-xml>
+     <annotation encoding="application/x-tex">
+      N=\left\lfloor 0.5-\log_{2}\left(\frac{\text{Frequency of this item}}{\text{%
+   Frequency of most common item}}\right)\right\rfloor
+     </annotation>
+    </semantics>
+   </math>
